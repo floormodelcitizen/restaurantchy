@@ -2,7 +2,6 @@
 
 <template>
   <div>
-    <Nav />
     <div class="container">
       <h1>Welcome to Restaurantchy</h1>
       <NuxtLink to="/restaurants">Go to restaurants</NuxtLink>
