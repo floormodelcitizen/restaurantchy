@@ -1,5 +1,7 @@
 <template>
   <div>
-    <h1>Restaurants</h1>
+    <div class="container">
+      <RestaurantTable />
+    </div>
   </div>
 </template>
