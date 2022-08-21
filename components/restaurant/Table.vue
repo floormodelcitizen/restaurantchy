@@ -12,15 +12,19 @@
     <h1>TOP 50: THE RANKING</h1>
     <div class="table-container">
       <div class="table-col">
-        <RestaurantRow
+        <restaurantRow
           v-for="restaurant in restaurantsOrganized.first"
           :key="restaurant.id"
+          :name="restaurant.name"
+          :rank="restaurant.rank"
         />
       </div>
       <div class="table-col">
-        <RestaurantRow
+        <restaurantRow
           v-for="restaurant in restaurantsOrganized.second"
           :key="restaurant.id"
+          :name="restaurant.name"
+          :rank="restaurant.rank"
         />
       </div>
     </div>
